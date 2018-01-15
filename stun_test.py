@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
+import os.path
+STUN_SOURCE_DIR = 'packages/pystun'
+if os.path.exists(STUN_SOURCE_DIR):
+    import sys
+    sys.path.append(os.path.abspath(STUN_SOURCE_DIR))
 import stun  # @see http://github.com/jtriley/pystun
 
 
