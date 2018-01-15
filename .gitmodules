@@ -1,0 +1,3 @@
+[submodule "packages/pystun"]
+	path = packages/pystun
+	url = https://github.com/liuqun/pystun.git
